@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zpo-program-review",
+  "version": "0.1.3",
+  "description": "Технічна перевірка навчальних програм позашкільної освіти.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Перевірка навчальних програм ЗПО",
+        "shortDescription": "Перевірка програм ЗПО",
+        "defaultPrompt": "Перевір прикріплену навчальну програму за чеклістом."
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "zpo-education-tools",
+  "interface": {
+    "displayName": "Інструменти ЗПО"
+  },
+  "plugins": [
+    {
+      "name": "zpo-program-review",
+      "source": { "source": "local", "path": "./plugins/zpo-program-review" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
