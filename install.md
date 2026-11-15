@@ -1,10 +1,10 @@
 # Встановлення перевіряльника навчальних програм ЗПО
 
-Версія **0.1.3**. Стабільний тег **v0.1.3**. Використовуйте файли з цього тегу або [ZIP цього релізу](https://github.com/2825435-oss/zpo-program-review/releases/download/v0.1.3/zpo-program-review-0.1.3-chatgpt.zip).
+Версія **0.1.4**. Стабільний тег **v0.1.4**. Використовуйте файли з цього тегу або [ZIP цього релізу](https://github.com/2825435-oss/zpo-program-review/releases/download/v0.1.4/zpo-program-review-0.1.4-chatgpt.zip).
 
 ## Якщо ви встановлюєте в ChatGPT уперше
 
-1. На комп’ютері натисніть [«Завантажити готовий ZIP»](https://github.com/2825435-oss/zpo-program-review/releases/download/v0.1.3/zpo-program-review-0.1.3-chatgpt.zip). У папці завантажень має бути файл `zpo-program-review-0.1.3-chatgpt.zip`. Якщо браузер розпакував архів, збережіть оригінальний ZIP повторно.
+1. На комп’ютері натисніть [«Завантажити готовий ZIP»](https://github.com/2825435-oss/zpo-program-review/releases/download/v0.1.4/zpo-program-review-0.1.4-chatgpt.zip). У папці завантажень має бути файл `zpo-program-review-0.1.4-chatgpt.zip`. Якщо браузер розпакував архів, збережіть оригінальний ZIP повторно.
 2. Відкрийте [ChatGPT](https://chatgpt.com/) під своїм акаунтом. Почніть новий чат у режимі **Робота (Work)**. У полі повідомлення наберіть `@Plugin Creator` і виберіть **Plugin Creator** зі списку. Якщо його там немає, знайдіть його в розділі **Плагіни** й установіть, якщо картка пропонує таку можливість.
 3. Натисніть **«Додати файли й інше» → «Додати світлини та файли»**, виберіть ZIP і надішліть разом із цим текстом:
 
@@ -27,7 +27,7 @@
 Додайте каталог зі стабільного тегу й установіть плагін:
 
 ```sh
-codex plugin marketplace add 2825435-oss/zpo-program-review --ref v0.1.3
+codex plugin marketplace add 2825435-oss/zpo-program-review --ref v0.1.4
 codex plugin add zpo-program-review@zpo-education-tools
 codex plugin list -m zpo-education-tools
 ```
